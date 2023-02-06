@@ -38,7 +38,7 @@ const HeroBanner = () => {
             lineHeight='shorter' textAlign={{base: 'center', md: 'start'}}
             maxW={["lg"]}>
             XYZ Real Estate Agency.
-            <strong>Your comfort is our priority</strong>. Contact us today.
+            <strong> Your comfort is our priority</strong>. Contact us today.
           </Text>
         </Box>
       </Box>
