@@ -1,7 +1,8 @@
 import { Badge, Box, HStack, Text } from "@chakra-ui/react";
 import Link from "next/link";
 import { TbBath, TbBed, TbRuler } from "react-icons/tb";
-import { usePropertyFormat } from "../hooks/UsePropertyFormat";
+// import { usePropertyFormat } from "../hooks/UsePropertyFormat";
+import {usePropertyFormat} from '../hooks/usePropertyFormat'
 
 const PropertyCard = (property) => {
   const {
