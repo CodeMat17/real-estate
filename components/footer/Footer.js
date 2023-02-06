@@ -42,7 +42,7 @@ const Footer = () => {
         </SimpleGrid>
       </Box>
       <Flex bg='gray.900' p='4' justify='center' fontSize='sm'>
-        &copy; All rights reserved.
+        &copy; All rights reserved. Developed by Matthew.
       </Flex>
     </Box>
   );
