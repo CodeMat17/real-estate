@@ -1,9 +1,10 @@
 import { Box, HStack, Image, Text } from "@chakra-ui/react";
-import { TbQuote } from "react-icons/tb";
+import {ImQuotesLeft, ImQuotesRight} from 'react-icons/im'
 
 const TestimonialCard = ({ img, name, testimonial }) => {
   return (
-    <Box overflow='hidden'
+    <Box
+      overflow='hidden'
       shadow='md'
       mx='auto'
       bg='whiteAlpha.900'
@@ -13,15 +14,22 @@ const TestimonialCard = ({ img, name, testimonial }) => {
       display='flex'
       flexDir='column'>
       <HStack px='4'>
-        <TbQuote size={20} />
+        {/* <TbQuote size={20} /> */}
+        <ImQuotesLeft />
       </HStack>
       <Text py='2' px='6' textAlign='center' color='gray'>
         {testimonial}
       </Text>
       <HStack px='4' justify='flex-end'>
-        <TbQuote size={20} />
+        <ImQuotesRight />
       </HStack>
-      <Box p='6' mt='2' bg='gray.50' display='flex' flexDir='column' alignItems='center'>
+      <Box
+        p='6'
+        mt='2'
+        bg='gray.50'
+        display='flex'
+        flexDir='column'
+        alignItems='center'>
         <Image src={img} w='100px' rounded='full' />
 
         <Text fontWeight='light' color='gray'>
